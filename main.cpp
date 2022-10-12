@@ -28,11 +28,6 @@ int main(int argc, char* argv[]) {
         }
     }
 
-    // std::stringstream strValue;
-    // strValue << argv[1];
-    // unsigned int input;
-    // strValue >> input;
-
     for (size_t i = 0; i < result.size(); i++) {
         std::cout << result[i] << std::endl;
     }
