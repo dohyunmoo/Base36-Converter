@@ -31,8 +31,6 @@ int main(int argc, char* argv[]) {
 
     for (size_t i = 0; i < result.size(); i++) {
         std::cout << result[i] << std::endl;
-        delete[] result[i];
-        result[i] = NULL;
     }
 
     return 0;
